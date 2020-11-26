@@ -11,9 +11,8 @@ namespace Prvi
             Automobil a1 = new Automobil();
             Console.WriteLine(a1);
             a1.boja = "Maroon";
+            a1.PostaviSnagu(100);
             Console.WriteLine(a1);
-
-
         }
     }
 }
