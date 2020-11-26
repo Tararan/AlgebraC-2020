@@ -6,7 +6,6 @@ namespace _01_varijable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
