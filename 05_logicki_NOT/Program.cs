@@ -6,16 +6,17 @@ namespace _05_logicki_NOT
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Unesi ime škole (Algebra)");
+            Console.WriteLine("Unesi ime skole (Algebra)");
+
             string imeskole = Console.ReadLine().ToLower();
-            if(! (imeskole == "algebra"))
+
+            if (!(imeskole == "algebra"))  // primjeti negaciju, usklicnik
             {
-                Console.WriteLine("Algebra!");
+                Console.WriteLine("Upisi Algebry");
             }
-            else
-            {
+            else {
                 Console.WriteLine("Sve OK");
-            }                
+            }
         }
     }
 }
