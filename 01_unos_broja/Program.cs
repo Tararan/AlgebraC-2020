@@ -6,6 +6,8 @@ namespace _01_unos_broja
     {
         static void Main(string[] args)
         {
+            int broj;//deklaracija cjelobrojne varijable
+
             broj = 15;
             //ovo neće raditi jer "15" nije broj, nego tekst
             //broj = "15";
@@ -22,7 +24,7 @@ namespace _01_unos_broja
             }
             
 
-            Console.WriteLine("Upisali ste broj {0}.", broj);
+            Console.WriteLine("Upisali ste broj {0:F2}.", broj);
 
             string tekst = Console.ReadLine();
 
