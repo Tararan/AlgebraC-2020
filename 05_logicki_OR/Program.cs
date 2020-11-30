@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_unos_brojeva_exception
+namespace _05_logicki_OR
 {
     class Program
     {
