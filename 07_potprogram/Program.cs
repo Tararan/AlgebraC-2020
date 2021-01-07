@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-﻿using System;
-
-namespace _07_potprogram
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Pozdrav iz Main metode!");
-            Hello();
-            Hello();
-            Hello();
-        }
-
-        static void Hello()
-        {
-            Console.WriteLine("Pozdrav iz potprograma");
-        }
-    }
-}
-=======
 ﻿using System;
 
 namespace _07_potprogram
@@ -79,4 +57,3 @@ namespace _07_potprogram
         }
     }
 }
->>>>>>> f64b972cfe3f602f4921ab4e71504b32d9c5cb91
